@@ -41,6 +41,7 @@ def update_action(selected_option):
 
     # If there's a theme in the current text, remove it
     current_text = re.sub(r'!theme \w+\n', '', current_text)
+    current_text = re.sub(r'!theme \w+-\w+\n', '', current_text)
     current_text = current_text.replace('@startuml', '@startuml\n' + theme_line, 1)
 
     with open(Output, 'w') as f:
@@ -68,6 +69,7 @@ def update_action(selected_option):
 
     st.session_state['text_area_content'] = current_text
     text_area_placeholder.text_area("", st.session_state['text_area_content'], height=400)
+    
 with tempfile.TemporaryDirectory() as source_dir:
 
     # Create an empty placeholder at the start

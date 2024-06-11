@@ -16,19 +16,18 @@ if 'text_area_content' not in st.session_state:
 st.sidebar.markdown("""
 # **UML Diagram Generator**
 
-This application converts Java source code into UML diagrams using PlantUML.
+Converts Java code to UML diagrams using PlantUML.
 
-- **Upload `.java` files**: Use the file uploader to select your Java source files. After uploading, click 'Submit' to generate the UML diagram.
+## **Instructions**
 
-- **Customize your diagram**: Use the dropdown menu to change the theme of the UML diagram. Click 'Update' to apply the theme.
+- **Upload**: Select `.java` files and click 'Submit' for puml syntax and 'Update' for image.
+- **Customize**: Change UML theme from dropdown and click 'Update'.
+- **View**: UML diagram is displayed as `.png` and can be downloaded.
+- **Manual Input**: Enter puml code in text box and click 'Update' for diagram.
 
-- **View the output**: The UML diagram will be displayed as a `.png` image which can also be downloaded using download button below.
+## **About**
 
-- **Manual input**: You can also manually input PlantUML code into the text box and click 'Update' to generate a diagram
-
-Developed by Srijan Chaudhary ❤️
-
-
+Powered by PlantUML. Developed by Srijan Chaudhary ❤️.
 """)
 
 

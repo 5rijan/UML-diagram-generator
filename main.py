@@ -24,7 +24,9 @@ This application converts Java source code into UML diagrams using PlantUML.
 
 - **View the output**: The UML diagram will be displayed as a `.png` image which can also be downloaded using download button below.
 
-- **Manual input**: You can also manually input PlantUML code into the text box and click 'Update' to generate a diagram.
+- **Manual input**: You can also manually input PlantUML code into the text box and click 'Update' to generate a diagram
+Developed by Srijan Chaudhary ❤️
+
 
 """)
 

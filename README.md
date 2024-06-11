@@ -21,10 +21,6 @@ This project is a web application that converts Java source code into UML diagra
 2. Install the required dependencies.
 3. Run the `main.py` script.
 
-## About the Developer
-
-This application was developed by Srijan Chaudhary. For any queries or feedback, please reach out to me at [email](mailto:srijanchaudhary2003@gmail.com).
-
 ## Credits
 
 This project wouldn't have been possible without the following open-source projects:
@@ -32,6 +28,11 @@ This project wouldn't have been possible without the following open-source proje
 - **[PlantUML](http://plantuml.com/)**: An open-source tool that allows users to create UML diagrams from a plain text language. We use PlantUML to convert the PlantUML syntax into a UML diagram image.
 
 - **[Java2PlantUML](https://github.com/mirajp1/java2plantuml.git)**: An initial parser that provided the base code for parsing Java source code into PlantUML syntax. We built upon this initial code to develop our application.
+
+## About the Developer
+
+This application was developed by Srijan Chaudhary. For any queries or feedback, please reach out to me at [email](mailto:srijanchaudhary2003@gmail.com).
+
 
 ## License
 
